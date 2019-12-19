@@ -1,0 +1,35 @@
+Level of table: -0.245 in z
+"just a little short of the right edge" is at y = -0.477
+That's about the limit of where a block would fit, so I think that's a good margin, actually
+The board is 32 in across, so 84.5 cm, so I expect the opposite side to be at about 0.37
+"just a little short of the back edge" (6.6 cm short) is at x=0.809, and it's 54.6 cm deep
+So I think the back edge is at 0.87 and the front is at 0.32
+This is with the whiteboard lined up flush with the "positive y" side of the table, flush with the edge closest to Baxter
+
+So, table specs (in m, in Baxter's coordinate frame)
+0.32 < x < 0.87
+-0.48 < y < 0.37
+z = -0.245
+
+Ready position:
+xyz = [0.55 -0.55 -0.05]
+
+Camera position:
+xyz = [0.64 0.00 0.54]
+
+Blocks are an inch on a side, so 0.00254 m
+We'll want to direct the gripper to grab 0.00127 above the table surface, which is -0.245
+So the "grab height" should be -0.24373
+
+Farthest extentions at table level:
+Maximum rotation:
+Can reach the positive y near corner of the board xy = [0.32 0.37]
+Intermediate rotation:
+Can reach xy = [0.784 0.05]
+Zero rotation:
+When reaching straight forward from the shoulder, can reach xy = [0.840 -0.397]
+Negative rotation:
+When reaching slightly farther in the negative y direction, can reach xy = [0.75 -0.63]
+
+So, it can reach the near-positive-y corner and the far-negative y corner, but 
+

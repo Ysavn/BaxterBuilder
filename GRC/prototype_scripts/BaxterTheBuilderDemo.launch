@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="config" default="true"/>
+  
+  <!-- Launch file that would have been run after the workspace was setup; runs our nodes in the correct order -->
+  
+  <node pkg="GRC" type="TargetIdentifier.py" name="target_identifier" output ="screen">
+  </node>
+  
+  <node pkg="GRC" type="BlockIdentifier.py" name="block_identifier" output="log" >
+  </node>  
+
+  <node pkg="GRC" type="PickPlace.py" name="pick_and_place" output ="screen">
+  </node>
+
+</launch>

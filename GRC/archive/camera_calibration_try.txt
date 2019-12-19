@@ -1,0 +1,80 @@
+Camera calibration.txt
+
+LEFT HAND CAMERA INFO
+pose: 
+  position: 
+    x: 0.591650825592
+    y: -0.166648520021
+    z: 0.38056602433
+  orientation: 
+    x: -0.19897571315
+    y: 0.977512976821
+    z: -0.00640664092506
+    w: -0.0695413594608
+twist: 
+  linear: 
+    x: 0.00586027605807
+    y: -0.00170752331713
+    z: -0.00775551778481
+  angular: 
+    x: -0.00852283796454
+    y: 0.00380322899222
+    z: -0.00920077766125
+wrench: 
+  force: 
+    x: -5.30486011505
+    y: 4.02725744247
+    z: -2.5103302002
+  torque: 
+    x: -1.16746306419
+    y: -1.71223843098
+    z: 0.231779098511
+
+DISTANCE FROM BAXTER CAMERA TO TABLETOP
+26 inches 
+
+DISTANCE FROM BAXTER'S COORDINATE FRAME ORIGIN TO BLOCK CENTROID (outwards)
+approx. 13 inches
+
+DISTANCE FROM BAXTER'S COORDINATE FRAME ORIGIN TO BLOCK CENTROID (to the right)
+approx. 10 inches
+
+
+BLOCK's LOCATION IN IMAGE
+This is cx: 
+432
+This is cy: 
+186
+
+
+RIGHT GRIPPER'S POSITION AND ORIENTATION FOR THE BLOCK
+pose: 
+  position: 
+    x: 0.539136274436
+    y: -0.271973238176
+    z: -0.246405081415
+  orientation: 
+    x: 0.644979477456
+    y: 0.763244871429
+    z: 0.0146107804512
+    w: 0.0352883124022
+twist: 
+  linear: 
+    x: -0.00793851935695
+    y: -0.00734306726142
+    z: -0.00379562426123
+  angular: 
+    x: -0.0107114341756
+    y: 0.0154854851277
+    z: -0.0198139040616
+wrench: 
+  force: 
+    x: 4.12026929855
+    y: 0.773408770561
+    z: 6.22095012665
+  torque: 
+    x: -0.591174900532
+    y: 2.91903924942
+    z: 0.0214789286256
+
+

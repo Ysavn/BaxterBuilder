@@ -1,0 +1,1 @@
+xacro --inorder `rospack find baxter_moveit_config`/config/baxter.srdf.xacro left_electric_gripper:=true right_electric_gripper:=true left_tip_name:=left_gripper right_tip_name:=right_gripper > config/baxter.srdf

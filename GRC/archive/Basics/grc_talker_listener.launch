@@ -1,0 +1,4 @@
+<launch>
+<node name="GRC" pkg="GRC" type="GRC.py" output="screen" />
+<node name="Listener_Publisher" pkg="GRC" type="listener.py" output="screen" />
+</launch>
